@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<!--My first app Final 1543 07172013-->
+<html>
+  <head>
+    <meta charset="utf-8">
+  <link href="css/style.css" rel="stylesheet" />
+	<link href="css/buddycloud.css" rel="stylesheet" />
+	<link href="css/paperfold.css" rel="stylesheet" />
+    <script src="http://chatbuilder.hackreactor.com/ChatBuilder.js"></script>
+    <script type="text/javascript" src="js/chat.js"></script>
+  </head>
+  
+  <body>
+    <script>
+      delete Chat.display;
+      delete Chat.fetch;
+      delete Chat.send;
+    </script>
+    <div class="playground">
+      <div class="box buddycloud">
+        <div class="stream">
+		  <article class="topic">
+            <section class="opener">
+              <p class="onscreenmessages"></p>
+		    </section>
+		  </article>
+		  <article class="topic">
+		    <section class="answer">
+              <div class="avatar user1"></div>
+ 			  <textarea class="unique" placeholder="post a reply..."></textarea>
+			  <div class="button">send</div>
+              </div>
+            </section>
+          </article>
+	    </div>
+	  </div>
+    </div>
+  </body>
+</html>
